@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -69,12 +69,12 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgb(247, 148, 148);
   font-family: 'Raleway';
 }
 
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #838383;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -83,7 +83,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #000000;
 }
 
 @media (min-width: 992px) {
@@ -139,7 +139,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(241, 133, 216, 0.7);
 }
 
 .cta .cta-inner {
@@ -219,9 +219,11 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgb(247, 148, 148);
 }
-
+.footer p{
+  color: #838383
+}
 .text-primary {
   color: #e6a756 !important;
 }
@@ -235,13 +237,13 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-    border-color: #e6a756;
+  background-color: rgba(241, 133, 216, 0.8);
+  border-color: rgba(241, 133, 216, 0.8);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: rgba(241, 133, 216, 0.99);
+  border-color: rgba(241, 133, 216, 0.99);
 }
 
 .font-weight-light {
