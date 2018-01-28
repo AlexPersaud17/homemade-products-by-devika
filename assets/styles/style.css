@@ -257,3 +257,45 @@ p {
 .font-weight-light {
   font-weight: 100 !important;
 }
+#welcome-intro{
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(136, 73, 255, 0.8)), url("../img/lavender.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+.welcome-intro-text{
+  vertical-align: middle;
+  font-family: 'Pacifico', cursive;
+  font-size: 72px;
+  color: rgb(0, 0, 0);
+}
+
+.welcome-intro-heading{
+  display: none;
+}
+
+.welcome-intro-container{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+.welcome-logo-container{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* .header-container */
+.section-container{
+  visibility: hidden;
+}
+
+.title-link:hover{
+  text-decoration: none;
+}
