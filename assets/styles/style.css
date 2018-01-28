@@ -305,3 +305,20 @@ p {
 .title-link:hover{
   text-decoration: none;
 }
+
+.sticky-footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.page-404-container{
+  text-align: center;
+}
+.page-404-container h1{
+  font-size: 48px;
+}
+.page-404-container a{
+  font-size: 48px;
+  color:rgb(241, 133, 216);
+}
