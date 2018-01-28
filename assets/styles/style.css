@@ -276,6 +276,12 @@ p {
   color: rgb(0, 0, 0);
 }
 
+@media only screen and (max-width: 600px) {
+  .welcome-intro-text{
+    font-size: 36px;
+  }
+}
+
 .welcome-intro-heading{
   display: none;
 }
